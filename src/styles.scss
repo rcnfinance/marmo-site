@@ -1,0 +1,129 @@
+@import '~highlight.js/styles/atelier-sulphurpool-dark.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'baloo';
+    src: url(../src/assets/fonts/Baloo-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'andale';
+    src: url(../src/assets/fonts/andalemo.ttf);
+}
+
+@mixin h1() {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'baloo';
+ }
+ 
+ @mixin h2() {
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 5px;
+ }
+ 
+ @mixin h3() {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 5px;
+ }
+ 
+ @mixin h5() {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.6;
+ }
+ 
+ @mixin h6() {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+ }
+ 
+ $grayColor: #f5f5f5;
+ $grayColor2: #8e8e8e;
+ $grayColor3: #808080;
+ $grayColor4: #4e4e4e;
+ $orangeColor: #E59248;
+ $yellowColor: #F7C34D;
+
+h1 {
+    @include h1
+}
+
+h2 {
+   @include h2
+}
+
+h3 {
+   @include h3
+}
+
+h5 {
+   @include h5
+}
+
+h6 {
+   @include h6
+}
+
+section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 0 0;
+}
+
+.mainBox {
+    width: 80%;
+    .sectionTitleBox {
+        text-align: center;
+
+        
+     } 
+
+}
+
+.sectionTitle {
+    @include h2;
+    margin: 4% 0 0 0;
+ }
+
+.sectionSubtitleBox{
+    text-align: center;
+    margin: 8% 0;
+}
+
+@media (min-width: 1200px) {
+
+    section {
+        padding: 3% 0 0 0;
+    }
+
+    .mainBox {
+        .sectionTitleBox {
+            margin: 0;
+
+         } 
+    } 
+
+    .sectionSubtitleBox{
+        text-align: center;
+        margin: 0 0 2% 0;
+    }
+
+}
+

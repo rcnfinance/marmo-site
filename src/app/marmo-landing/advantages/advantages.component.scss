@@ -1,0 +1,80 @@
+$grayColor: #f5f5f5;
+$grayColor2: #8e8e8e;
+$grayColor3: #808080;
+$grayColor4: #4e4e4e;
+$orangeColor: #E59248;
+$yellowColor: #F7C34D;
+
+section {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+ }
+
+.allContent{
+    width: 90%;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0px 1px 5px #bcbcbc;
+    margin: 10% 0;
+    .contentBox {
+        margin: 15% 0;
+        .text {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
+
+.textBox {
+    text-align: center;
+    
+}
+
+h3 {
+    color: $grayColor2;
+    margin: 4% 0 0 0;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+h6 {
+    margin: 2% 0 0 0;
+    width: 80%;
+}
+
+ @media (min-width: 1200px) {
+
+    .allContent{
+        width: 90%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        .contentBox {
+            width: 28%;
+            margin: 4% 0 5% 0;
+
+            .text{
+
+                width: 100%;
+            }
+            h6 {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .textBox {
+        text-align: left;
+    }
+
+    .phrasesBox {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
