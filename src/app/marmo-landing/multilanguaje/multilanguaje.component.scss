@@ -18,6 +18,7 @@ section {
    margin: 4% 0 15% 0;
    font-weight: 900;
    color: $grayColor3;
+   letter-spacing: 5px;
 }
 
 .box {
@@ -74,7 +75,7 @@ button {
    align-items: center;
    z-index: 1;
    .imgCont {
-      width: 80%;
+      width: 90%;
          img {
             width: 100%;
          }
@@ -90,6 +91,7 @@ h3 {
    font-weight: 400;
    font-size: 18px;
    letter-spacing: 0px;
+   font-family: "lato";
 }
 
 .hljs {
@@ -110,7 +112,7 @@ h3 {
    }
 
    .langs {
-      width: 22%;
+      width: 18%;
       display: block;
       box-shadow: 0px 1px 5px #bcbcbc;
       .langBoxOn {
@@ -127,7 +129,7 @@ h3 {
    }
 
    .codeBox {
-      width: 85%;
+      width: 64%;
       border-radius: 50px;
       position: absolute;
       top: 15%;
@@ -135,9 +137,10 @@ h3 {
    }
 
    h3 {
-      margin:12% 0 12% 14%;
+      margin:10% 0 10% 14%;
       font-size: 24px;
       letter-spacing: 0px;
+      font-family: "lato";
    }
 
    .hljs {
@@ -146,6 +149,78 @@ h3 {
     
     }
 
+
+}
+
+// Code Styles ------------
+
+.hljs-comment,
+.hljs-quote {
+  color: #898ea4;
+}
+
+/* Atelier-Sulphurpool Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #E59248;
+}
+
+/* Atelier-Sulphurpool Blue */
+.hljs-title,
+.hljs-section {
+  color: #F7C34D;
+}
+
+/* Atelier-Sulphurpool Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #F7C34D;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #4e4e4e;
+  color: white;
+  padding: 0.5em;
+  font-size: 16px;
+  line-height: 1.6;
+
+}
+
+.hljs-emphasis {
+  font-style: italic;
+
+}
+
+.hljs-strong {
+  font-weight: bold;
 
 }
 
