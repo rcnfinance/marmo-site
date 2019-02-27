@@ -8,7 +8,7 @@ $yellowColor: #F7C34D;
 section {
     background-image: linear-gradient(to right, $yellowColor , $orangeColor);
     position: relative;
-    z-index: 0;
+    z-index: 1;
     padding: 10% 0;
     display: block;
     overflow: hidden;
@@ -64,11 +64,11 @@ section {
         color: white;
         font-weight: 900;
         font-size: 14px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         border: solid white 2px;
         padding: 15px 30px;
         border-radius: 50px;
-        margin: 2% 2% 0 2%;
+        margin: 3% 2% 0 2%;
         outline: inherit;
         font-family: 'Lato', sans-serif;
         cursor: pointer;
@@ -82,6 +82,8 @@ h2 {
 @media (min-width: 1200px) {
     section {
         padding: 0;
+        position: relative;
+        z-index: 1;
     }
 
     h2 {
@@ -93,7 +95,7 @@ h2 {
         margin: 0;
         h5 {
             margin: 2% 0 0 0;
-            font-size: 22px;
+            font-size: 20px;
         }
     }
 
@@ -122,8 +124,8 @@ h2 {
             padding: 15px 50px;
         }
         button:hover { 
-            background-color: rgba(255, 255, 255, 0.356);
-            color: $orangeColor;
+            background-color: rgba(255, 255, 255, 0.144);
+            color: white;
             border: solid 1.5 white;
           }
     }
