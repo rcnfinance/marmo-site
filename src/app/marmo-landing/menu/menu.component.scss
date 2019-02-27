@@ -141,6 +141,22 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+
+    .nav{
+        width: 55%;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    .nav{
+        width: 35%;
+    }
+
+}
+
+@media (min-width: 1200px) {
     
     .navbar {
         height: 65px;
@@ -168,14 +184,12 @@ a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: auto;
-        width: 35%;
         .secBox {
             margin: 0 2%;
             width: auto;
             display: block;
+            border-top: none;
             .sec {
-                border-top: none;
                 justify-content: center;
             }
         }
