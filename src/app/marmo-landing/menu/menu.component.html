@@ -34,7 +34,7 @@
           </div>
        </div>
   </div>
-  <div [ngClass]="mobile ? 'back' : 'noBack'">
+  <div  (click)="mobileMenu()" [ngClass]="mobile ? 'back' : 'noBack'">
     
   </div>
 </nav>
