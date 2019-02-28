@@ -1,0 +1,79 @@
+$grayColor: #f5f5f5;
+$grayColor2: #8e8e8e;
+$grayColor3: #808080;
+$grayColor4: #4e4e4e;
+$orangeColor: #E59248;
+$yellowColor: #F7C34D;
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.socialOuterBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 10% 0;
+    .socialBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+        height: 10%;
+        .oneSocial {
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
+.mainBox{
+    margin: 0;
+    .sectionSub {
+        font-weight: 900;
+        letter-spacing: 4px;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+}
+
+.fab {
+    color: $orangeColor;
+    font-size: 26px;
+}
+
+@media (min-width: 1200px) {
+
+.socialOuterBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5% 0 3% 0;
+    .socialBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 14%;
+        height: 10%;
+        .oneSocial {
+            width: auto;
+            height: auto;
+        }
+    }
+}
+.mainBox{
+    margin: 0;
+    .sectionSub {
+        margin: 3% 0 0 0;
+        font-size: 22px;
+     }
+}
+
+
+.fab {
+    color: $orangeColor;
+    font-size: 26px;
+}
+
+}
