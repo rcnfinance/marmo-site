@@ -7,7 +7,7 @@ $yellowColor: #F7C34D;
 
 section {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     padding: 0;
  }
 
@@ -15,8 +15,8 @@ section {
     width: 90%;
     background-color: white;
     border-radius: 50px 50px 0 0;
-    box-shadow: 0px 1px 5px #bcbcbc;
-    margin: 10% 0;
+    box-shadow: 0px 3px 5px #e6e5e5;
+    margin: 10% 0 0 0;
     .contentBox {
         margin: 15% 0;
         .text {
@@ -37,7 +37,7 @@ h3 {
     color: $grayColor2;
     margin: 4% 0 0 0;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 h6 {

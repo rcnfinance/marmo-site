@@ -10,7 +10,7 @@ export class InfoComponent implements OnInit {
   constructor() { }
 
   navDoc(){
-    window.open('https://quirky-nightingale-fa573a.netlify.com/docs/setup', '_blank');
+    window.open('https://docs.marmo.io/docs/intro', '_blank');
   }
 
   navGit(){

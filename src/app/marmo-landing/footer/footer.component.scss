@@ -20,8 +20,10 @@ section {
         justify-content: space-around;
         align-items: center;
         margin: 5% 0;
+        width: auto;
         .copy {
             height: auto;
+            width: auto;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -55,16 +57,18 @@ section {
         display: flex;
         justify-content: center;
         .footerBox {
-            width: 35%;
+            width: auto;
             margin: 2% 0;
             .copy {
                 display: flex;
                 justify-content: center;
                 align-items: baseline;
+                width: auto;
                 .box {
                     display: flex;
                     align-items: center;
                     justify-content: flex-end;
+                    width: auto;
                 }
             }
         }
@@ -73,10 +77,14 @@ section {
     .imgBox {
         width:12%;
         height: auto;
-        margin-right: 1%;
+        margin: 0 2% 0 2%; 
         img {
              width: 100%;
         }
+    }
+
+    .pipe {
+        margin-right: 5%;
     }
 
 }

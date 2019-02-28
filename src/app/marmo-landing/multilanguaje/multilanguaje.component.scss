@@ -11,17 +11,26 @@ section {
 }
 
 .content {
-   margin-bottom: 40%;
+   position: relative;
+   z-index: -3;
+   // margin-bottom: 40%;
+}
+
+.mainBox {
+   position: relative;
+   z-index: -4;
 }
 
 .sectionSub {
    margin: 4% 0 15% 0;
    font-weight: 900;
    color: $grayColor3;
-   letter-spacing: 5px;
+   letter-spacing: 2px;
 }
 
 .box {
+   position: relative;
+   z-index: -2;
    width: 100%;
    height: auto;
 }
@@ -29,6 +38,8 @@ section {
 .langs {
    width: 100%;
    display: flex;
+   position: relative;
+   z-index: -1;
 
    .langBoxOn {
       background-color: $orangeColor;
@@ -73,7 +84,9 @@ button {
    display: flex;
    justify-content: center;
    align-items: center;
-   z-index: 1;
+   // z-index: 1;
+   margin: 0% 0 5% 0;
+   
    .imgCont {
       width: 90%;
          img {
@@ -102,19 +115,21 @@ h3 {
 @media (min-width: 1200px) {
 
    .box {
-      position: relative;
+
       width: 100%;
       margin-bottom: 1% 0 20% 0;
    }
 
    .sectionSub {
-      margin: 4% 0 5% 0;
+      margin: 0 0 5% 0;
+      font-size: 22px;
    }
 
    .langs {
       width: 18%;
       display: block;
-      box-shadow: 0px 1px 5px #bcbcbc;
+      box-shadow: 0px 3px 5px #e6e5e5;
+      z-index: -1;
       .langBoxOn {
          justify-content: flex-start;
          border-radius: 50px 0 0 0;
@@ -131,9 +146,11 @@ h3 {
    .codeBox {
       width: 64%;
       border-radius: 50px;
-      position: absolute;
-      top: 15%;
-      left: 15%;
+      // position: absolute;
+      // top: 15%;
+      // left: 15%;
+      margin: -14% 0 5% 14%;
+      z-index: 1;
    }
 
    h3 {

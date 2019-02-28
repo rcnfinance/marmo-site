@@ -8,6 +8,9 @@ $yellowColor: #F7C34D;
 section {
     background-color: $grayColor;
     padding-bottom: 20%;
+    margin-top: -1%;
+    position: relative;
+    z-index: 1;
 }
 
 .featBox {
@@ -82,6 +85,9 @@ h6 {
 
      section {          
           padding-bottom: 5%;
+          margin-top: -1%;
+          position: relative;
+          z-index: 1;
       }
 
     .featContent {

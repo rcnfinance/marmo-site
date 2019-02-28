@@ -3,7 +3,7 @@
         <div class="sectionTitleBox">
             <h3 class="sectionSub">CHECK THE CODE!</h3>
         </div>
-        <div>
+        <!-- <div> -->
             <div class="content">
                 <div class="box">
                     <div class="langs" [ngClass]="statusPython ? 'langsOn' : 'langs'">
@@ -18,22 +18,18 @@
                         </button>
                     </div>
                     <div class="codeBox">
-                        <div *ngIf = "isJava" class="imgCont">
-                            <pre class="code"><code [highlight]="java"></code></pre>
-                            <!-- <img src="../../assets/img/code.png" alt=""> -->
-
+                        <div *ngIf = "isPython" class="imgCont">
+                            <pre class="code"><code [highlight]="python"></code></pre>
                         </div>
                         <div *ngIf = "isJavascript" class="imgCont">
-                                <pre class="code"><code [highlight]="javascript"></code></pre>
-                            <!-- <img src="../../assets/img/logo-rcn.png" alt=""> -->
+                            <pre class="code"><code [highlight]="javascript"></code></pre>
                         </div>
-                        <div *ngIf = "isPython" class="imgCont">
-                                <pre class="code"><code [highlight]="python"></code></pre>
-                             <!-- <img src="../../assets/img/marmo-imago.svg" alt=""> -->
+                        <div *ngIf = "isJava" class="imgCont">
+                            <pre class="code"><code [highlight]="java"></code></pre>
                         </div>
                     </div>
                 </div>  
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 </section>

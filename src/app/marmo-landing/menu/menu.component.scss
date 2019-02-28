@@ -15,7 +15,7 @@ $yellowColor: #F7C34D;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 0px 1px 5px #bcbcbc;
+    box-shadow: 0px 3px 5px #e6e5e5;   
     .imgDiv {
         width: 90px;
         margin-left: 5%;
@@ -69,12 +69,12 @@ $yellowColor: #F7C34D;
         background-color: white;
         display: flex;
         align-items: center;
+        border-top: solid 1px $grayColor;
         .sec {
             display: flex;
             justify-content: flex-start;
             width: auto;
             padding: 8% 0 8% 10%;
-            border-top: solid 1px $grayColor;
         }
     }
 }
@@ -118,7 +118,7 @@ a {
     color: black;
     font-weight: bolder;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 a:hover { 
@@ -141,9 +141,25 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+
+    .nav{
+        width: 55%;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    .nav{
+        width: 35%;
+    }
+
+}
+
+@media (min-width: 1200px) {
     
     .navbar {
-        height: 7vh;
+        height: 65px;
         .imgDiv {
             width: 110px;
         }
@@ -168,14 +184,12 @@ a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: auto;
-        width: 35%;
         .secBox {
             margin: 0 2%;
             width: auto;
             display: block;
+            border-top: none;
             .sec {
-                border-top: none;
                 justify-content: center;
             }
         }
@@ -186,7 +200,7 @@ a:hover {
         height: auto;
         display: flex;
         justify-content: center;
-        margin-top: 2%;
+        margin-top: 0;
         margin-left: 0;
         .dot {
             width: 7px;
@@ -198,7 +212,7 @@ a:hover {
             width: 7px;
             height: 7px;
             border-radius: 50px;
-            background-color: white;
+            background-color: none;
         }
     }
     
@@ -207,7 +221,7 @@ a:hover {
         text-decoration: none;
         color: black;
         font-weight: bolder;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
         font-size: 14px;
     }
 
