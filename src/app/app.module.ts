@@ -16,6 +16,7 @@ import { HighlightModule } from 'ngx-highlightjs';
 import javascript from 'highlight.js/lib/languages/javascript';
 import java from 'highlight.js/lib/languages/java';
 import python from 'highlight.js/lib/languages/python';
+import { SocialComponent } from './marmo-landing/social/social.component';
 
 export function hljsLanguages() {
   return [
@@ -38,7 +39,8 @@ export function hljsLanguages() {
     HomeComponent,
     FooterComponent,
     AdvantagesComponent,
-    MarmoLandingComponent
+    MarmoLandingComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
