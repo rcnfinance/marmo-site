@@ -26,7 +26,6 @@ export function hljsLanguages() {
   ];
 }
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +43,7 @@ export function hljsLanguages() {
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,    
+    AppRoutingModule,
     HighlightModule.forRoot({
       languages: hljsLanguages
     })

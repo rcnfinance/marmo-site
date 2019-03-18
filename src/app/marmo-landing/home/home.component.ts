@@ -9,10 +9,6 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  navNpm(){
-    
-  }
-
   ngOnInit() {
   }
 

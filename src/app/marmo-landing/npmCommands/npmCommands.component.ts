@@ -9,8 +9,8 @@ export class NpmCommandsComponent implements OnInit {
 
   constructor() { }
 
-  copyJava(val:string){
-    let selBox = document.createElement('textarea');
+  copyJava(val: string) {
+    const selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.style.left = '0';
     selBox.style.top = '0';
@@ -23,8 +23,8 @@ export class NpmCommandsComponent implements OnInit {
     document.body.removeChild(selBox);
   }
 
-  copyJavascript(val:string){
-    let selBox = document.createElement('textarea');
+  copyJavascript(val: string) {
+    const selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.style.left = '0';
     selBox.style.top = '0';
@@ -37,8 +37,8 @@ export class NpmCommandsComponent implements OnInit {
     document.body.removeChild(selBox);
   }
 
-  copyPython(val:string){
-    let selBox = document.createElement('textarea');
+  copyPython(val: string) {
+    const selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.style.left = '0';
     selBox.style.top = '0';
