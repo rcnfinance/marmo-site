@@ -9,11 +9,11 @@ export class InfoComponent implements OnInit {
 
   constructor() { }
 
-  navDoc(){
+  navDoc() {
     window.open('https://docs.marmo.io/docs/intro', '_blank');
   }
 
-  navGit(){
+  navGit() {
     window.open('https://github.com/ripio/marmo-docs', '_blank');
   }
 

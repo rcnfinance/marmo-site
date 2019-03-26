@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'marmo-landing';
-  npm:string = "#npm";
+  npm = '#npm';
 
   constructor() { }
 

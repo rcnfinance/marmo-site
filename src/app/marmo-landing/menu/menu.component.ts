@@ -9,30 +9,29 @@ export class MenuComponent implements OnInit {
 
   constructor() { }
 
-  features:boolean = false;
-  libraries:boolean = false;
-  mobile:boolean = false;
-  menu:boolean = false;
-  
-  sectionFeat(){
+  features = false;
+  libraries = false;
+  mobile = false;
+  menu = false;
+  sectionFeat() {
     this.features = true;
     this.libraries = false;
   }
 
-  sectionLib(){
+  sectionLib() {
     this.features = false;
     this.libraries = true;
   }
 
-   mobileMenu(){
+   mobileMenu() {
     this.mobile = !this.mobile;
   }
 
-  hideMenu(){
-    this.menu= !this.menu;
+  hideMenu() {
+    this.menu = !this.menu;
   }
 
-  clearSec(){
+  clearSec() {
     this.libraries = false;
     this.features = false;
   }
